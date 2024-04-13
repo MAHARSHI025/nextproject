@@ -4,7 +4,7 @@ function Contact() {
     return (
         <>
             <div className="follow" id='follow'>
-                <h1 className=" text-center font-semibold text-3xl mt-10 mb-6">CONTACT ME</h1>
+                <h1 className=" text-center font-semibold text-3xl mt-10 mb-6 noto">CONTACT ME</h1>
                 <div className="section flex flex-wrap flex-row justify-center items-center">
                     <div className="lootie">
                         <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
@@ -15,7 +15,7 @@ function Contact() {
                         <input placeholder='Enter your email' type="email" name="email" id="email" />
                         <input placeholder='Enter your subject' type="text" />
                         <textarea name="" id="" cols="30" rows="5" maxLength={70} placeholder='Enter your message'></textarea>
-                        <button type='submit' className=" border-2 border-black px-4 py-1 rounded-lg font-medium te">Send Message</button>
+                        <button type='submit' className=" border-2 border-black px-4 py-1 rounded-lg font-medium sendbtn">Send Message</button>
                     </div>
                 </div>
             </div>

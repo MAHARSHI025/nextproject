@@ -19,6 +19,7 @@
 body {
   background-color: #F6FFEA;
   color: #384235;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 @layer utilities {
@@ -33,6 +34,25 @@ body {
   position: sticky;
   top: 0px;
   z-index: 100;
+  font-family: "Noto Sans", sans-serif;
+}
+.navbtn{
+  border:2px solid transparent ;
+}
+.navbtn:hover{
+  transition: 0.5s;
+  border-bottom: 2px solid #F6FFEA;
+}
+
+.noto {
+  font-family: "Noto Sans", sans-serif;
+}
+.Kalnia{
+  font-family: "Kalnia", serif;
+}
+.area h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
 }
 
 .profile {
@@ -164,7 +184,8 @@ textarea {
 dotlottie-player {
   height: 12rem;
 }
-.lootie dotlottie-player{
+
+.lootie dotlottie-player {
   height: 18rem;
 }
 
@@ -173,24 +194,47 @@ dotlottie-player {
   display: flex;
   font-size: 0.9rem;
 }
-.green{
+.hirebtn:hover{
+  border-color: #2c7a15;
+  background-color: transparent;
+  color: #2c7a15;
+  box-shadow: inset none;
+  transition: 0.3s;
+}
+.hirebtn:hover{
+  box-shadow: none;
+}
+.aboutbtn:hover{
+  transition: 0.2s;
+  box-shadow: 0px 0px 5px #000000, inset 0px 0px 2px #000000;
+}
+.sendbtn:hover{
+  transition: 0.2s;
+  border-color: #2300a0;
+  color: #2300a0;
+  box-shadow: 0px 0px 5px #2300a0, inset 0px 0px 2px #2300a0;
+}
+.green {
   color: green;
 }
 
 span {
   font-size: 1.5rem !important;
 }
-.line{
+
+.line {
   border-left: 2px solid black;
   height: 10rem;
   width: 0;
 }
-hr{
+
+hr {
   width: 2.5rem;
   border-color: black;
   background-color: black;
 }
-.number{
+
+.number {
   font-size: 1.5rem;
   background-color: #272e25;
   color: #F6FFEA;
@@ -198,35 +242,46 @@ hr{
   width: 3rem;
   border-radius: 100px;
 }
-.text{
+
+.text {
   gap: 1rem;
 }
-.text img{
+
+.text img {
   height: 5rem;
 }
-.logos{
+
+.logos {
   color: #F6FFEA;
 }
-.logos img{
+
+.logos img {
   filter: grayscale(1);
 }
 
-.logos img:hover{
+.logos img:hover {
   filter: grayscale(0);
-  
+
 }
-@media  (max-width: 480px) {
-  .navbar h1{
+
+@media (max-width: 480px) {
+  .navbar h1 {
     font-size: 1rem;
   }
-  progress{
-      width: 8rem !important;
+
+  progress {
+    width: 8rem !important;
   }
-  .logo img{
+
+  .logo img {
     width: 5rem;
     height: auto;
   }
-  .contacter h2{
+
+  .contacter h2 {
     width: min-content;
+  }
+  .text img{
+    height: 4rem;
   }
 }

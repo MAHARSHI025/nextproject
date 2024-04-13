@@ -14,16 +14,16 @@ export default function Home() {
         </div>
         <div className="right flex flex-col w-96 justify-center items-start gap-4">
           <h1>HELLO there...</h1>
-          <h1 className=" font-bold text-5xl" id="typing">I am A Developer</h1>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In unde blanditiis debitis explicabo quibusdam ratione qui cum aperiam nemo ipsum?</h6>
+          <h1 className=" font-bold text-5xl noto" id="typing">I am A <span ><h1 className="Kalnia font-bold text-5xl">Developer</h1></span></h1>
+          <h6>As a web developer, I am a digital architect, shaping the virtual landscape of the internet. My expertise lies in crafting the virtual spaces where businesses, organizations, and individuals thrive online.</h6>
           <div className="button gap-4">
 
-            <Link href={"#follow"} className="hirebtn">
+            <Link href={"#follow"} className="">
               <button className=" border-2 main px-4 py-1 rounded-lg font-medium hirebtn">Hire me</button>
             </Link>
 
             <Link href={"/about"}>
-              <button className=" border-2 sub px-4 py-1 rounded-lg font-medium">about me</button>
+              <button className=" border-2 sub px-4 py-1 rounded-lg font-medium aboutbtn">about me</button>
             </Link>
           </div>
 
@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className="skills mt-20">
         <div className="title">
-          <h1 className=" text-center font-semibold text-3xl">My SKILLS</h1>
+          <h1 className=" text-center font-semibold text-3xl noto">My SKILLS</h1>
         </div>
         <div className="section flex flex-wrap gap-10 justify-evenly p-6 mt-4">
           <div data-aos="fade-right" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="area">
               <h1>90%</h1>
               <progress value="90" max="100" className="media w-56"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">JavaScript is the Swiss Army knife of web development. It's a versatile programming language that adds interactivity and dynamic behavior to websites and web applications.</h1>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="area">
               <h1>80%</h1>
               <progress value="80" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">React.js is a powerful JavaScript library for building user interfaces, developed by Facebook. It's renowned for its efficiency, flexibility, and declarative approach to building UI components.</h1>
             </div>
           </div>
           <div data-aos="fade-right" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="area">
               <h1>75%</h1>
               <progress value="75" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">Next.js is a powerful framework built on top of React.js, designed to streamline the development of server-rendered React applications. Developed by Vercel.</h1>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="area">
               <h1>65%</h1>
               <progress value="65" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">Node.js is a powerful runtime environment that allows developers to run JavaScript code outside of a web browser, typically on the server side.</h1>
             </div>
           </div>
           <div data-aos="fade-right" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -82,7 +82,7 @@ export default function Home() {
             <div className="area">
               <h1>90%</h1>
               <progress value="90" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">Web development is the art and science of creating websites and web applications that are accessible, interactive, and visually compelling.</h1>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="area">
               <h1>80%</h1>
               <progress value="80" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam ad quidem ea repellendus quis.</h1>
+              <h1 className="maximize">Figma is a powerful web-based design and prototyping tool that revolutionizes the way designers collaborate and create digital products. It offers a comprehensive platform for designing user interfaces.</h1>
             </div>
           </div>
 
@@ -100,9 +100,8 @@ export default function Home() {
       </div>
 
       <div className="title my-10">
-        <h1 className=" text-center font-semibold text-3xl">EDUCATION</h1>
+        <h1 className=" text-center font-semibold text-3xl noto">EDUCATION</h1>
       </div>
-
       <div className="education flex flex-row justify-center gap-10">
         <div className="lootie">
           <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
@@ -110,12 +109,12 @@ export default function Home() {
         </div>
         <div className="section flex flex-col max-w-80 justify-center gap-6">
           <div className="part">
-            <h1 className=" font-semibold text-2xl">12th board</h1>
-            <h1 className=" text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima commodi ex quia ipsum fuga incidunt, nulla explicabo voluptatum atque!</h1>
+            <h1 className=" font-semibold text-2xl noto">12th board</h1>
+            <h1 className=" text-xs">I completed my 12th in Science PCM at 80%. I done my boards at my hometown. After my boards I move to ahmedabad for higher studies</h1>
           </div>
           <div className="part">
-            <h1 className=" font-semibold text-2xl">Engineering</h1>
-            <h1 className=" text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima commodi ex quia ipsum fuga incidunt, nulla explicabo voluptatum atque!</h1>
+            <h1 className=" font-semibold text-2xl noto">Engineering</h1>
+            <h1 className=" text-xs">I am currently studying Computer Engineering at Sal collage. My college is at ahmedabad and it bolongs to Gujarat tecgnical university</h1>
           </div>
         </div>
       </div>
