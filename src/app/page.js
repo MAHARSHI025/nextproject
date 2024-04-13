@@ -42,7 +42,7 @@ export default function Home() {
             <div className="area">
               <h1>90%</h1>
               <progress value="90" max="100" className="media w-56"></progress>
-              <h1 className="maximize">JavaScript is the Swiss Army knife of web development. It's a versatile programming language that adds interactivity and dynamic behavior to websites and web applications.</h1>
+              <h1 className="maximize">JavaScript is the Swiss Army knife of web development. It is a versatile programming language that adds interactivity and dynamic behavior to websites and web applications.</h1>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="area">
               <h1>80%</h1>
               <progress value="80" max="100" className=" w-56 progess"></progress>
-              <h1 className="maximize">React.js is a powerful JavaScript library for building user interfaces, developed by Facebook. It's renowned for its efficiency, flexibility, and declarative approach to building UI components.</h1>
+              <h1 className="maximize">React.js is a powerful JavaScript library for building user interfaces, developed by Facebook. It is renowned for its efficiency, flexibility, and declarative approach to building UI components.</h1>
             </div>
           </div>
           <div data-aos="fade-right" data-aos-once="true" className="part flex flex-row gap-4 justify-center items-center">
@@ -104,7 +104,7 @@ export default function Home() {
       </div>
       <div className="education flex flex-row justify-center gap-10">
         <div className="lootie">
-          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+          {/* <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> */}
           <dotlottie-player src="https://lottie.host/0b106054-b9fc-42b5-bf14-64b17387ef37/0KWUvmnv8q.lottie" alt="EDUCATION" background="transparent" speed="1" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
         </div>
         <div className="section flex flex-col max-w-80 justify-center gap-6">

@@ -4,7 +4,7 @@ import React from 'react'
 function page() {
   return (
     <>
-      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+      {/* <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> */}
 
       <h1 className=" text-center font-semibold text-3xl mt-10 noto">What I do ?</h1>
 
