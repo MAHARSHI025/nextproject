@@ -16,7 +16,7 @@ export default function Home() {
           <h1>HELLO there...</h1>
           <h1 className=" font-bold text-5xl" id="typing">I am A Developer</h1>
           <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In unde blanditiis debitis explicabo quibusdam ratione qui cum aperiam nemo ipsum?</h6>
-          <div className="button">
+          <div className="button gap-4">
 
             <Link href={"#follow"} className="hirebtn">
               <button className=" border-2 main px-4 py-1 rounded-lg font-medium hirebtn">Hire me</button>
