@@ -17,17 +17,216 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #F6FFEA;
+  color: #384235;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.navbar {
+  background-color: #384235;
+  color: #F6FFEA;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.profile {
+  box-shadow: -6px 6px 20px 0px black;
+}
+
+progress {
+  border-radius: 20px;
+  height: 0.7rem;
+}
+
+progress::-webkit-progress-value {
+  background: #384235;
+  border-radius: 50px;
+}
+
+progress::-webkit-progress-bar {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-radius: 50px;
+}
+
+.maximize {
+  max-width: 20rem;
+  font-size: 0.6rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.381);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #384235;
+  border-radius: 20px;
+}
+
+.main {
+  background-color: #272e25;
+  color: #F6FFEA;
+}
+
+.sub {
+  color: #384235;
+  background-color: #F6FFEA;
+  border: 1px solid #384235;
+}
+
+dotlottie-player {
+  height: 20rem;
+}
+
+.inputer input {
+  background-color: transparent;
+  border: 2px solid #384235;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.contacter {
+  margin-bottom: 0.5rem;
+}
+
+.contacter h2 {
+  font-weight: bolder;
+}
+
+textarea {
+  border: 2px solid #384235;
+  background-color: transparent;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.gallary {
+  padding: 1rem;
+}
+
+.col1 img {
+  width: 15rem;
+  margin-bottom: 1rem;
+  filter: grayscale(1);
+}
+
+.col1 img:hover {
+  transition: 1s;
+  filter: grayscale(0);
+}
+
+.shadower {
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 4px 6px 20px #384235;
+
+}
+
+.textedit {
+  margin: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.card {
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.diff {
+  color: #F6FFEA;
+}
+
+.btn {
+  background-color: #F6FFEA;
+  color: #384235;
+}
+
+.extra {
+  background-color: #272e25;
+  color: #F6FFEA;
+  border: 2px solid #272e25;
+}
+
+dotlottie-player {
+  height: 12rem;
+}
+.lootie dotlottie-player{
+  height: 18rem;
+}
+
+.textarea h2 {
+  text-align: start;
+  display: flex;
+  font-size: 0.9rem;
+}
+.green{
+  color: green;
+}
+
+span {
+  font-size: 1.5rem !important;
+}
+.line{
+  border-left: 2px solid black;
+  height: 10rem;
+  width: 0;
+}
+hr{
+  width: 2.5rem;
+  border-color: black;
+  background-color: black;
+}
+.number{
+  font-size: 1.5rem;
+  background-color: #272e25;
+  color: #F6FFEA;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100px;
+}
+.text{
+  gap: 1rem;
+}
+.text img{
+  height: 5rem;
+}
+.logos{
+  color: #F6FFEA;
+}
+.logos img{
+  filter: grayscale(1);
+}
+
+.logos img:hover{
+  filter: grayscale(0);
+  
+}
+@media  (max-width: 480px) {
+  .navbar h1{
+    font-size: 1rem;
+  }
+  progress{
+      width: 8rem !important;
+  }
+  .logo img{
+    width: 5rem;
+    height: auto;
+  }
+  .contacter h2{
+    width: min-content;
   }
 }
