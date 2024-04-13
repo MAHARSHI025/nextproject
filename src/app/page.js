@@ -104,7 +104,7 @@ export default function Home() {
       </div>
       <div className="education flex flex-row justify-center gap-10">
         <div className="lootie">
-          {/* <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> */}
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
           <dotlottie-player src="https://lottie.host/0b106054-b9fc-42b5-bf14-64b17387ef37/0KWUvmnv8q.lottie" alt="EDUCATION" background="transparent" speed="1" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
         </div>
         <div className="section flex flex-col max-w-80 justify-center gap-6">
