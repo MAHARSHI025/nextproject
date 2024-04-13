@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Join() {
     return (
         <>
-            <div className="logos flex justify-center items-center gap-4 py-4 mt-4 bg-black">
+            <div className="logos flex justify-center items-center gap-4 py-6 mt-4 bg-black">
                 <Link href={"https://www.linkedin.com/in/maharshi-patel-9a9a29261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"} target="_blank">
                     <img className=' h-8' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Wb7G67EcR44qT3KQLlLzI1Fna_L2lPXfTI1sx8_z2w&s" alt="" />
                 </Link>

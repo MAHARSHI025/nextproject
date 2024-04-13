@@ -107,7 +107,7 @@ export default function Home() {
           <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
           <dotlottie-player src="https://lottie.host/0b106054-b9fc-42b5-bf14-64b17387ef37/0KWUvmnv8q.lottie" alt="EDUCATION" background="transparent" speed="1" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
         </div>
-        <div className="section flex flex-col max-w-80 justify-center gap-6">
+        <div className="section flex flex-col max-w-80 justify-center gap-6 m-4">
           <div className="part">
             <h1 className=" font-semibold text-2xl noto">12th board</h1>
             <h1 className=" text-xs">I completed my 12th in Science PCM at 80%. I done my boards at my hometown. After my boards I move to ahmedabad for higher studies</h1>

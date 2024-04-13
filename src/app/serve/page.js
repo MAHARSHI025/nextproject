@@ -11,7 +11,7 @@ function page() {
       <Linear></Linear>
       <h1 className=" text-center font-semibold text-3xl my-10 noto">PRICING</h1>
       <div className=' flex flex-wrap justify-evenly'>
-        <div className="card flex flex-col flex-nowrap">
+        <div className="card  flex-col flex-nowrap price">
           <div className="icon">
             <dotlottie-player src="https://lottie.host/7cf4e896-5b1b-4334-a463-52ce005c4bc7/y7iZThveFm.json" background="transparent" speed="1" direction="1" playMode="normal" loop autoplay></dotlottie-player>
           </div>
@@ -28,7 +28,7 @@ function page() {
             <button className=" border-2 main px-4 py-1 rounded-lg font-medium mt-4">Contact Us</button>
           </div>
         </div>
-        <div className="card extra">
+        <div className="card price extra">
           <div className="icon">
             <dotlottie-player src="https://lottie.host/5846d6c8-3ed3-477f-a968-e761ba283855/UqiiK9LOpi.json" speed="1" direction="1" playMode="normal" loop autoplay></dotlottie-player>          </div>
           <div className="textarea flex flex-col">
@@ -46,7 +46,7 @@ function page() {
             <button className="btn border-2 main px-4 py-1 rounded-lg font-medium mt-4">Contact Us</button>
           </div>
         </div>
-        <div className="card">
+        <div className="card price">
           <div className="icon">
             <dotlottie-player src="https://lottie.host/d4c34055-6c1e-49e3-848c-68a104067342/Qm1VzHUzmi.json" speed="1" direction="1" playMode="normal" loop autoplay></dotlottie-player>          </div>
           <div className="textarea flex flex-col">

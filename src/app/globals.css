@@ -152,7 +152,7 @@ textarea {
   border-radius: 20px;
   padding: 2rem;
   box-shadow: 4px 6px 20px #384235;
-
+  
 }
 
 .textedit {
@@ -261,27 +261,33 @@ hr {
 
 .logos img:hover {
   filter: grayscale(0);
-
+  
 }
 
 @media (max-width: 480px) {
   .navbar h1 {
     font-size: 1rem;
   }
-
+  
   progress {
     width: 8rem !important;
   }
-
+  
   .logo img {
     width: 5rem;
     height: auto;
   }
-
+  
   .contacter h2 {
     width: min-content;
   }
   .text img{
     height: 4rem;
+  }
+  .marger{
+    margin-bottom: 0;
+  }
+  .price{
+    margin: 1rem;
   }
 }
